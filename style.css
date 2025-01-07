@@ -59,10 +59,7 @@ footer {
 .aja{
     font-size: 20px;
     height: 500px;
-    width: 600px;
-    position: relative;
-    left: 100px;
-    top: 80px;
+    width: 450px;
 }
 .aja1{
     color: #054283;
@@ -92,7 +89,6 @@ footer {
 }
 .parent{
     display: flex;
-    flex-wrap: wrap;
 }
 .who{
     color: rgb(31, 31, 247);
@@ -122,9 +118,9 @@ footer {
 }
 .parent3{
     display: flex;
-    gap: 35px;
+    gap: 50px;
     background-color: white;
-    flex-wrap: wrap;
+    width: 100%;
 }
 .padding{
     margin: 100px 0px 0px 0px;
@@ -275,12 +271,12 @@ footer {
 }
 .parent4{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-wrap: wrap;
 }
 .parent5{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     margin-top: 20px;
     flex-wrap: wrap;
 }
