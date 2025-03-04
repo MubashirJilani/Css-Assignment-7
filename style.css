@@ -4,7 +4,7 @@ body {
     color: #333;
 }
 
-/* Header Styles */
+
 header {
     display: flex;
     justify-content: space-between;
@@ -42,14 +42,14 @@ header .unorder ul li {
     position: relative;
     bottom: 3px;
 }
-/* footer */
+
 footer {
     background-color: white;
     text-align: center;
     padding: 10px;
     flex-wrap: wrap;
 }
-/* footer */
+
 .ball{
     color: #007BFF;
 }
@@ -404,7 +404,7 @@ footer {
 .alpha{
     opacity: 0.4;
 }
-/* newsletter */
+
 .news{
     text-align: center;
     color: rgb(8, 8, 99);
@@ -433,8 +433,7 @@ footer {
     margin: 20px 0px 0px 0px;
     background-color: white;
 }
-/* newsletter */
-/* links */
+
 .fog1{
     background-color: white;
     display: flex;
@@ -450,7 +449,7 @@ footer {
 .img1{
     margin: 0px 10px 0px 0px;
 }
-/* links */
+
 .cr1{
     text-align: center;
     color: blue
@@ -499,4 +498,121 @@ footer {
     display: flex;
     gap: 70px;
     margin-left: 100px;
+}
+/* Add this at the end of your CSS file */
+@media (max-width: 768px) {
+    header {
+        padding: 2px 20px;
+    }
+
+    .parent, .parent2, .parent3, .parent4, .parent5, .baap, .kuch {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .application {
+        left: 0;
+        margin-top: 20px;
+    }
+
+    .aja, .child1, .child2, .patta1, .patta2, .patta3, .patta4, .patta5, .patta6, .beta1, .kuch1 {
+        width: 90%;
+        margin: 10px 0;
+    }
+
+    .dabba {
+        width: 80%;
+    }
+
+    .subscribe {
+        width: 20%;
+    }
+
+    .fog1 {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .fog2 {
+        margin: 20px 0;
+    }
+}
+
+@media (max-width: 480px) {
+    header {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .unorder ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .link {
+        margin: 10px 0;
+    }
+
+    .aja1 {
+        font-size: 30px;
+    }
+
+    .aja3 {
+        font-size: 20px;
+    }
+
+    .aja2 {
+        width: 150px;
+    }
+
+    .expert {
+        font-size: 30px;
+    }
+
+    .heading {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .webi {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .all {
+        margin: 5px 0;
+    }
+
+    .study {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .opac {
+        width: 100%;
+        height: auto;
+    }
+
+    .baap {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .beta1 {
+        width: 90%;
+    }
+
+    .kuch {
+        margin-left: 0;
+    }
+
+    .kuch1 {
+        width: 90%;
+    }
+}
+
+img {
+    max-width: 100%;
+    height: auto;
 }
